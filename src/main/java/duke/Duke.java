@@ -18,6 +18,10 @@ public class Duke {
     private static TaskList taskList;
     private static Parser parser;
     private static DukeUI ui;
+
+    /**
+     * constructor for Duke
+     */
     public Duke() {
         storage = new DukeStorage(FILE_PATH);
         taskList = new TaskList();
@@ -30,6 +34,9 @@ public class Duke {
         run();
     }
 
+    /**
+     * To start the program
+     */
     public static void run(){
         Scanner in = new Scanner(System.in);
 

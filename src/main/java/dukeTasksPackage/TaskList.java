@@ -228,6 +228,11 @@ public class TaskList {
         }
     }
 
+
+    /**
+     * to find all tasks that contain a keyword
+     * @param input user input
+     */
     public void findWord(String input) {
         try {
             if (input.equals("find")) {
